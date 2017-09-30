@@ -1,0 +1,53 @@
+<!-- <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Menu Item <b class="caret"></b></a>
+  <ul class="dropdown-menu">
+    <li><a href="#"></a></li>
+    <li class="divider"></li>
+  </ul>
+</li> -->
+
+<header role="banner" class="navbar navbar-fixed-top navbar-inverse">
+              <a class="navbar-brand" href="/logout">
+                <img src="./assets/icons/utile.png" id= "logoNav">
+              </a>
+      <div class="container">
+        <div class="navbar-header">
+          <button data-toggle="collapse-side" data-target=".side-collapse" data-target-2=".side-collapse-container" type="button" class="navbar-toggle pull-left"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+        </div>
+        <div class="navbar-inverse side-collapse in">
+          <nav role="navigation" class="navbar-collapse">
+            <ul class="nav navbar-nav">
+              <!-- <li class= "utile"><a href="#uTile" style= "color: black; font-weight: 600;">uTile</a></li> -->
+              <li><a href="/projects">Projects</a></li>
+              <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Command Cheat Sheet<span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu" id="funDropdown">
+                <p><b><u>Commands For Interacting with GitHub</u></b></p><br/>
+                <p><b>Create Pull Request</b></p>
+                <p><i><b>/title</b> insert title here <b>/head</b> insert head here <b>/base</b> insert master here</i></p>
+                <p><b>Create Issue</b></p>
+                <p><i><b>/title</b> insert title here <b>/assignees</b> insert assignees here <b>/body</b> insert body</i></p>
+                <p><b>Assign Issues</b></p>
+                <p><i><b>/assignees</b> insert assignees <b>/number</b> insert issue number</i></p>
+              </ul>
+            </li>
+            </ul>
+
+            <div class= "nav navbar-right">
+                            <span style="font-size:15px;cursor:pointer;color:white;" id="main" onclick="openNav()"> Settings</span>
+
+              <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Clients</a>
+                <a href="#">Contact</a>
+              </div>
+
+            </nav>
+          </div>
+          </div>
+      </div>
+    </header>
+    <div class="container side-collapse-container">
+
+    </div>
